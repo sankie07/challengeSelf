@@ -1,6 +1,8 @@
 
 import './App.css'
 import { Landing } from './components/Landing'
+import { Signin } from './components/Signin.tsx'
+
 
 // 
 // adding backend of firebase here
