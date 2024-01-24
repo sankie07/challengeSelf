@@ -7,6 +7,7 @@ import { Signin } from './components/Signin.tsx'
 import { onAuthStateChanged,getAuth} from "firebase/auth";
 import { RecoilRoot, useRecoilState, useSetRecoilState } from 'recoil';
 import { userAtom } from './store/atoms/user.ts';
+import { Card } from './components/Card.tsx'
 
 
 // 
@@ -57,6 +58,7 @@ if(!user.user){
   return (
     <>
         <Topbar />
+        <Card> hi there </Card>
     </>
   )
 }
